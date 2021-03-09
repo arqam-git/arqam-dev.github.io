@@ -1,0 +1,7 @@
+This project is a file storage application. User will be able to upload files on the server and can also share the files to other users
+having an account on this application. Users can also save the files to the vault to view in offline mode.
+
+
+
+Tools and Technology:
+1. Frontend:   Android (Native)

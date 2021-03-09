@@ -1,0 +1,16 @@
+This project involves hardware. This is regarding automatic door opening. This project is for a building having multiple people or employees.
+Each employee will have this app on the registered device (only one device at a time). Admin will set the permission of a specific employee and then
+that employee will be able to pass through only the allowed gates. 
+When the user will come close to the device, the mobile device will auto-connect with the hardware installed in the door through Bluetooth. If he 
+is allowed to pass through the gate, the gate will open automatically.
+
+This application involves the following roles:
+1. Admin
+2. User (Employees)
+
+Tools and Technology:
+1. Frontend:   React Native
+2. Backend :   Node JS (Express JS)
+3. Database:   PostGres
+4. Deployment: AWS
+5. ORM	     : Sequelize

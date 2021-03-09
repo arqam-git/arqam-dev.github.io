@@ -1,0 +1,10 @@
+This application is related to events management. Events like sport events, festivals, etc. This will show events on the base of user's
+interest and events near the user's location.
+
+
+Tools and Technology:
+1. Frontend:   React Native
+2. Backend :   Node JS (Express JS)
+3. Database:   Firebase
+4. Deployment: Firebase
+

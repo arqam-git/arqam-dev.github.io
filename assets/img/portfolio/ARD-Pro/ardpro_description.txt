@@ -1,0 +1,27 @@
+This project is regarding special education in the US. This project has been developed under proper rules and regulations of US regarding the special education.
+
+
+We have followed the following Laws/policies:
+1. Free appropriate public education (FAPE) 
+2. Least restrictive environment (LRE), etc.
+
+There are the following roles in it:
+1. Admin
+2. Teacher
+3. Parent
+4. Members of board pannel
+
+The teacher will conduct assessment tests on a weekly or bi-weekly basis and will upload the result of the student. Parent Will see the overall performance of their
+children. There will be multiple parent-teacher and teacher-teacher meetings for the students. Board panel members
+
+Here is a list of assessments for measuring student performance:
+1. Academic
+2. Sports
+3. Psychological
+4. Clinical, etc.
+
+Tools and Technology:
+1. Frontend:   Android (Native) + Angular 8
+2. Backend :   Node JS (Loopback 3)
+3. Database:   MySQL
+4. Deployment: AWS
