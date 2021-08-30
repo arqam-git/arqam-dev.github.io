@@ -1,9 +1,0 @@
-This project involves sales and buy of tickets of different events like concerts, sports, etc. User can upload the tickets and other user can 
-buy the tickets. 
-
-Tools and Technology:
-1. Frontend:   Next.JS
-2. Backend :   Node JS (Express JS)
-3. Database:   Mongo DB
-4. Deployment: Heroku
-5. ORM	     : Mongoose

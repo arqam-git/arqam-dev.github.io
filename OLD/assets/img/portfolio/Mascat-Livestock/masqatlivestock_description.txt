@@ -1,6 +1,0 @@
-This project is simply a portfolio of a company that deals with the sale and purchase of meat (buffalo meat). User will see the services of
-the company like types of meat, delivery, etc.
-
-
-Tools and Technology:
-1. Frontend: Angular 6

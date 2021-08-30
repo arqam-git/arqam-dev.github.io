@@ -1,6 +1,0 @@
-This project is like an e-commerce website for home inventory. All functionalities are similar to e-commerce website but this project has one extra
-fucntionality. User can view the furniture with the setting in the home means the suitable places the house where that furniture will looks nice.
-
-Tools and Technology:
-1. Frontend:   Angular 8
-2. Backend :   PHP (Laravel)

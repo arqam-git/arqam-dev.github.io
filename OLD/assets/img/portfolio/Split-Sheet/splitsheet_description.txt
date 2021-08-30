@@ -1,9 +1,0 @@
-This project is regarding the project management within an institute or software house. Admin can add new project and add different teams having multiple 
-people like Quality Assurance, Developer, Designer, etc. Each member will be assigned a specific percentage to accomplish the project.
-
-
-Tools and Technology:
-1. Frontend:   Angular 9
-2. Backend :   Node JS (Express JS)
-3. Database:   PostGres
-4. Deployment: CPanel
