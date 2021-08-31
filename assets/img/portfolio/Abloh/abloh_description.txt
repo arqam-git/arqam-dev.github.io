@@ -1,0 +1,29 @@
+This project is regarding a school management system having Artificial Intelligence in it. This project is not regarding the academic routine of the student.
+In fact, this involves communication between students of an institute.
+
+Here is a list of core modules on Abloh:
+1. Groups & Events 	(Similar to LinkedIn)
+2. Posts 		(similar to Facebook)
+3. Friends Network	(Similar to Facebook)
+4. Chat & Thread 	(Similar to Slack)
+5. Hash Tagging         (Similar to Twitter)
+
+
+Students will be able to join different groups and can view posts of them. Student can make friends, can go to events, can show interests in different
+types of activities including academics, sports, etc.
+
+Artificial intelligence includes the following modules of the project:
+1. Friends suggestions
+2. Student Interests
+3. Suggested Groups
+4. suggested Events
+
+There is also an admin panel who will add groups, decide group admin, etc.
+
+
+Tools and Technology:
+1. Frontend:   React Native + Angular 8
+2. Backend :   Node JS (Express JS)
+3. Database:   MySQL
+4. Deployment: AWS
+5. ORM	     : Sequelize

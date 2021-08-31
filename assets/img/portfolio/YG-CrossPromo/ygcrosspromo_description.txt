@@ -1,0 +1,9 @@
+This project is regarding the Ads management of the games. There is only for the admin. Admin can view the number of clicks on the 
+Ads and can manage the ads percentage. Admin can register the new games and ads regarding them.
+
+
+Tools and Technology:
+1. Frontend:   React JS
+2. Backend :   Node JS (Loopback 3)
+3. Database:   MySQL
+4. Deployment: AWS
