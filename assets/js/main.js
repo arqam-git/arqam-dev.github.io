@@ -4,6 +4,13 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
+// function redirectTo(page) {
+//  var currentPage =  document.getElementById(page);
+//  $( 'main-container' ).text( htmlString );
+
+// }
+
 (function() {
   "use strict";
 
@@ -18,6 +25,7 @@
       return document.querySelector(el)
     }
   }
+
 
   /**
    * Easy event listener function
@@ -162,6 +170,8 @@
    * Porfolio isotope and filter
    */
   window.addEventListener('load', () => {
+    $('[data-filter="filter-web"]').trigger( "click" );
+
     let portfolioContainer = select('.portfolio-container');
     if (portfolioContainer) {
       let portfolioIsotope = new Isotope(portfolioContainer, {

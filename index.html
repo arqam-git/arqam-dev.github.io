@@ -61,6 +61,9 @@
 
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 </head>
 
 <body>
@@ -75,7 +78,7 @@
       <div class="profile">
         <!-- <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle"> -->
         <img src="assets/img/profile-img.jpg" alt="" class="img-fluid">
-        <h1 class="text-light"><a href="index.html">Muhammad Arqam</a></h1>
+        <h1 class="text-light"><a href="#hero">Muhammad Arqam</a></h1>
         <div class="social-links mt-3 text-center">
           <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> -->
           <!-- <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a> -->
@@ -88,10 +91,12 @@
 
       <nav id="navbar" class="nav-menu navbar">
         <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#hero" class="nav-link scrollto active"><i
+                class="bx bx-home"></i> <span>Home</span></a></li>
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
           <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Skills</span></a></li>
-          <li><a href="#education" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Education</span></a></li>
+          <li><a onclick="redirectTo(education)" style="cursor: pointer;" class="nav-link scrollto"><i
+                class="bx bx-user"></i> <span>Education</span></a></li>
           <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
           <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i>
               <span>Portfolio</span></a></li>
@@ -110,16 +115,18 @@
       <p>I'm <span class="typed" data-typed-items="Senior Full-Stack Software Engineer"></span></p>
       <div class="row" style="margin-left: 10%;">
         <div class="col-lg-6 col-sm-6">
-          <a href="https://www.npmjs.com/~arqam-dev" class="btn-get-started scrollto" target="_blank">JS Publications</a>
+          <a href="https://www.npmjs.com/~arqam-dev" class="btn-get-started scrollto" target="_blank">JS
+            Publications</a>
         </div>
         <div class="col-lg-6 col-sm-6">
           <a href="https://www.linkedin.com/pulse/cooperative-caching-coop-cache-muhammad-arqam/"
             class="btn-get-started scrollto" target="_blank">Review&nbsp;Papers</a>
         </div>
-      </div>    </div>
+      </div>
+    </div>
   </section><!-- End Hero -->
 
-  <main id="main">
+  <main id="main" class="main-container">
 
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
@@ -663,8 +670,8 @@
         <div class="row" data-aos="fade-up">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
-              <!-- <li data-filter="*" class="filter-active">All</li> -->
-              <li data-filter=".filter-web" class="filter-active">Web</li>
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-web">Web</li>
               <li data-filter=".filter-cms">CMS</li>
               <li data-filter=".filter-mobile">Mobile</li>
             </ul>
@@ -678,19 +685,19 @@
               <img src="assets/img/portfolio/Abloh/Dashboard.png" class="img-fluid img_dimension" alt="">
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/Abloh/Dashboard-1.png" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  class="portfolio-lightbox" title="App 1"><i class="fa fa-search-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="fa fa-eye"></i></a>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div data-filter="filter-web" class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/ARD-Pro/2 (1).jpg" class="img-fluid img_dimension" alt="">
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  class="portfolio-lightbox" title="Web 3"><i class="fa fa-search-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="fa fa-eye"></i></a>
               </div>
             </div>
           </div>
@@ -700,8 +707,8 @@
               <img src="assets/img/portfolio/Lock-Any-Key/admin.png" class="img-fluid img_dimension" alt="">
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/Lock-Any-Key/admin.png" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  class="portfolio-lightbox" title="App 2"><i class="fa fa-search-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="fa fa-eye"></i></a>
               </div>
             </div>
           </div>
@@ -713,8 +720,8 @@
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/Mascat-Livestock/masqatlivestock_screens/masqat2.PNG"
                   data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i
-                    class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                    class="fa fa-search-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="fa fa-eye"></i></a>
               </div>
             </div>
           </div>
@@ -724,8 +731,8 @@
               <img src="assets/img/portfolio/MTClient/mtclient_screens/mrc1.PNG" class="img-fluid img_dimension" alt="">
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/MTClient/mtclient_screens/mrc1.PNG" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                  class="portfolio-lightbox" title="Web 2"><i class="fa fa-search-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="fa fa-eye"></i></a>
               </div>
             </div>
           </div>
@@ -737,8 +744,8 @@
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/Social-Influencer/socialinfluencer_screens/Dashboard-2.JPG"
                   data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i
-                    class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                    class="fa fa-search-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="fa fa-eye"></i></a>
               </div>
             </div>
           </div>
@@ -750,8 +757,8 @@
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/Split-Sheet/splitsheet_screens/Dashboard-1.JPG"
                   data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i
-                    class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                    class="fa fa-search-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="fa fa-eye"></i></a>
               </div>
             </div>
           </div>
@@ -763,8 +770,8 @@
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/Stagging-Inventory/stagginginventory_screens/Dashboard-1.JPG"
                   data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i
-                    class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                    class="fa fa-search-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="fa fa-eye"></i></a>
               </div>
             </div>
           </div>
@@ -776,8 +783,8 @@
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/YG-CrossPromo/ygcrosspromo_screens/Dashboard-1.JPG"
                   data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i
-                    class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                    class="fa fa-search-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="fa fa-eye"></i></a>
               </div>
             </div>
           </div>
@@ -1033,8 +1040,22 @@
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
 
+  <script>
+    function redirectTo(page) {
+      console.log('page: ', page)
+      var currentPage = document.getElementById(page);
+      console.log('currentPage: ', currentPage)
+      // $(".main-container").html(currentPage);
+      document.querySelector('.main-container').innerHTML  = currentPage;
+
+
+    }
+  </script>
+  
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+
 
 </body>
 
